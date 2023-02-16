@@ -16,7 +16,7 @@
   --color-primary-light: #894ac3;
   --color-primary-dark: #6914b8;
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: rgba(243, 239, 239, 0.774);
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
@@ -44,8 +44,8 @@ body {
 /* General Styles */
 
 .container {
-  width: var(--container-width-lg);
   margin: 0;
+  width: var(--container-width-lg);
 }
 
 h1,
@@ -77,6 +77,11 @@ section > h2 {
 
 .text-light {
   color: var(--color-light);
+  transition: var(--transition);
+}
+
+a {
+  color: var(--color-primary-light);
   transition: var(--transition);
 }
 

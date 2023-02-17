@@ -4,8 +4,7 @@ import CTA from './CTA';
 
 const about = () => {
   return (
-    <section>
-      <div>about</div>
+    <section id='about'>
       <CTA />
     </section>
   );

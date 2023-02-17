@@ -2,7 +2,7 @@ import React from 'react';
 import './skill.css';
 
 const skill = () => {
-  return <div>skils</div>;
+  return <section id='skill'></section>;
 };
 
 export default skill;

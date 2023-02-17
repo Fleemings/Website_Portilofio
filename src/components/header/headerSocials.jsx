@@ -7,21 +7,21 @@ const headerSocials = () => {
       <a
         href='https://www.linkedin.com/in/milenafleming/'
         target='_blank'
-        rel='noreferrer'
+        rel='noopener noreferrer'
       >
         <BsLinkedin />
       </a>
       <a
         href='https://github.com/Fleemings'
         target='_blank'
-        rel='noreferrer'
+        rel='noopener noreferrer'
       >
         <BsGithub />
       </a>
       <a
         href='https://www.instagram.com/fleemings/'
         target='_blank'
-        rel='noreferrer'
+        rel='noopener noreferrer'
       >
         <BsInstagram />
       </a>

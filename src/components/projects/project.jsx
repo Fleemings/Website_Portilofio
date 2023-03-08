@@ -17,15 +17,21 @@ function project() {
               </div>
               <h3>{title}</h3>
               <div className='project__item-cta'>
-                <a href={github} className='btn' target='_blank'>
+                <a
+                  href={github}
+                  className='btn'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   Github
                 </a>
                 <a
                   href={demo}
-                  className='btn btn-primary'
+                  className='btn'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
-                  Live
+                  preview
                 </a>
               </div>
             </article>

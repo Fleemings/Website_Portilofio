@@ -2,10 +2,6 @@ import React from 'react';
 import './about.css';
 import ME from '../../assets/images/perfil.jpg';
 import CTA from './CTA';
-import Card from './card';
-import { FaAward } from 'react-icons/fa';
-import { BsFolderCheck } from 'react-icons/bs';
-import { IoSchoolOutline } from 'react-icons/io5';
 
 const about = () => {
   return (
@@ -15,17 +11,10 @@ const about = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={ME} alt='about me perfil image' />
+            <img src={ME} alt='about me perfil' />
           </div>
         </div>
         <div className='about__content'>
-          <Card name='Experience' info='Junior' icon={<FaAward />} />
-          <Card
-            name='Technology'
-            info='+5'
-            icon={<IoSchoolOutline />}
-          />
-          <Card name='Project' info='+4' icon={<BsFolderCheck />} />
           <div className='about__text'>
             <p>
               I'm a website developer and I enjoy creating things that

@@ -1,25 +1,28 @@
 import React from 'react';
 import './header.css';
-import ME from '../../assets/images/perfil.jpg';
 import HeaderSocials from './headerSocials';
+import Blob from './blob';
+import Typical from 'react-typical';
 
 const header = () => {
   return (
     <header>
+      <section id='#home'>
+        <h5> Hi there, </h5>
+        <h2>My name is Milena Fleming</h2>
+        <p className='header__text'>
+          I'm a
+          <Typical
+            loop={Infinity}
+            wrapper='b'
+            steps={[' Full Stack', 1000, ' Web Developer', 1000]}
+          />
+        </p>
+      </section>
       <div className='container header__container'>
-        <h5>Hello, I'm</h5>
-        <h1>Milena Fleming</h1>
-        <h5 className='text-light'>Full Stack Web Developer</h5>
+        <Blob style='blob' />
 
         <HeaderSocials />
-
-        <div className='me'>
-          <img src={ME} alt='me' />
-        </div>
-
-        <a href='#contact' className='scroll_down'>
-          Let's go down
-        </a>
       </div>
     </header>
   );

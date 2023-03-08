@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact.css';
 
-function contact({ title }) {
+function contact() {
   return (
     <section id='contact'>
       <h5> What is next? </h5>

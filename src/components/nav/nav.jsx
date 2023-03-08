@@ -2,8 +2,6 @@ import React from 'react';
 import './nav.css';
 import { HiOutlineHome } from 'react-icons/hi';
 import { RiFolderUserLine } from 'react-icons/ri';
-import { BsBookmarkCheck } from 'react-icons/bs';
-import { BiBookHeart } from 'react-icons/bi';
 import { MdOutlineDesignServices } from 'react-icons/md';
 import { AiOutlineMessage } from 'react-icons/ai';
 import { useState } from 'react';
@@ -26,20 +24,6 @@ const Nav = () => {
         className={activeNav === '#about' ? 'active' : ''}
       >
         <RiFolderUserLine />
-      </a>
-      <a
-        href='#experience'
-        onClick={() => setActiveNav('#experience')}
-        className={activeNav === '#experience' ? 'active' : ''}
-      >
-        <BiBookHeart />
-      </a>
-      <a
-        href='#skill'
-        onClick={() => setActiveNav('#skill')}
-        className={activeNav === '#skill' ? 'active' : ''}
-      >
-        <BsBookmarkCheck />
       </a>
       <a
         href='#project'

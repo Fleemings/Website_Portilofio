@@ -73,7 +73,7 @@ footer a {
   color: var(--color-bg);
 }
 
-/*   MEDIA WUERIE (SMALL DEVICES)   */
+/*   MEDIA QUERIE (SMALL DEVICES)   */
 
 @media screen and (max-width: 600px) {
   .footer__links {

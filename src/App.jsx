@@ -1,8 +1,8 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import Header from './components/header/header';
 import Nav from './components/nav/nav';
 import About from './components/about/about';
-import Experience from './components/experience/experience';
 import Skill from './components/skills/skill';
 import Project from './components/projects/project';
 import Contact from './components/contact/contact';
@@ -13,11 +13,12 @@ const App = () => {
     <>
       <Header />
       <Nav />
-      <About />
-      <Experience />
-      <Skill />
-      <Project />
-      <Contact />
+      <Fade top distance='20%' duration={1500}>
+        <About />
+        <Skill />
+        <Project />
+        <Contact />
+      </Fade>
       <Footer />
     </>
   );

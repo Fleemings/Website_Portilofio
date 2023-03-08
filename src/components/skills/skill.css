@@ -1,3 +1,7 @@
+section#skill {
+  position: relative;
+  background: rgb(97, 4, 95, 0.9);
+}
 .skill__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -6,20 +10,25 @@
 
 .skill__container > div {
   padding: 2.4rem 5rem;
-  border: 1px solid transparent;
   border-radius: 1rem;
-  background: var(--color-complement);
+  background: var(--color-bg);
+  box-shadow: 9px 6px 12px -3px rgb(244, 235, 235, 0.2);
 }
 
 .skill__container > div:hover {
-  background: transparent;
+  background: rgb(244, 235, 235, 0.9);
   transition: var(--transition);
-  border: 1px solid var(--color-complement);
+  border: none;
 }
 
 .skill__container > div h3 {
   text-align: center;
   margin-bottom: 2rem;
+  color: var(--color-dark);
+}
+
+section#skill h5 {
+  color: var(--color-white);
 }
 
 .skill__content {
@@ -33,9 +42,14 @@
   gap: 1rem;
 }
 
-.skill__details-icon {
-  margin-top: 6px;
-  color: var(--color-light);
+/*  SVG WAVE */
+
+svg {
+  display: block;
+}
+
+.wave {
+  transform: rotate(180deg);
 }
 
 /*    Media Queries (Medium Devices)    */
@@ -53,6 +67,10 @@
 
   .skill__content {
     padding: 1rem;
+  }
+
+  .blob {
+    left: -5rem;
   }
 }
 

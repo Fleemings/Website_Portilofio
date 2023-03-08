@@ -1,12 +1,12 @@
 import ImageSoon from '../../assets/images/coming-soon.jpg';
-import FindWorkImage from '../../assets/images/find-work.jpg';
+import FindWorkImage from '../../assets/images/find-work.png';
 import TinderImage from '../../assets/images/tinder.jpg';
 
 const data = [
   {
     id: 1,
     image: FindWorkImage,
-    title: 'Find Work - Laravel',
+    title: 'Find Work  -  PHP, Laravel, MySQL',
     github: 'https://github.com/Fleemings/findWork',
     demo: 'https://github.com/Fleemings/findWork',
   },
@@ -15,15 +15,16 @@ const data = [
     image: TinderImage,
     title: 'Tinder - React, MongoDB',
     github: 'https://github.com/Fleemings/Tinder',
-    demo: '',
+    demo: 'https://github.com/Fleemings/Tinder',
   },
   {
     id: 3,
     image: ImageSoon,
-    title: 'Link Shorter',
-    github: '',
-    demo: '',
+    title: 'URL Shortener - Node.js, React, Typescript, MongoDB',
+    github: 'https://github.com/Fleemings',
+    demo: 'https://github.com/Fleemings',
   },
+  /*
   {
     id: 4,
     image: ImageSoon,
@@ -45,6 +46,7 @@ const data = [
     github: '',
     demo: '',
   },
+  */
 ];
 
 export default data;

@@ -18,13 +18,13 @@ const about = () => {
           <div className='about__text'>
             <p>
               I'm a website developer and I enjoy creating things that
-              live on the internet. My interest in full Stack web
+              live on the internet. My interest in Full Stack web
               development started back in 2021 when I decided to
-              iniciate this jorney at 42 Lisboa. I finished the full
-              stack web development course at FLAG Lisboa and I
-              founded passion for React and Laravel. Coding for me is
-              about developing solutions and generate creative
-              projects wich makes me excited for new opportunities.
+              initiate this journey at 42 Lisboa. I finished the Full
+              Stack web development course at FLAG Lisboa and I found
+              a passion for React and Laravel. Coding for me is about
+              developing solutions and generating creative projects
+              which make me excited for new opportunities.
             </p>
           </div>
         </div>

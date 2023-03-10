@@ -23,6 +23,15 @@ section#home {
   transform: rotate(180deg);
 }
 
+.blob-second {
+  position: absolute;
+  width: 21rem;
+  height: 21rem;
+  top: -11rem;
+  transform: rotate(180deg);
+  right: -9rem;
+}
+
 /*     Header Socials    */
 
 .header__socials {
@@ -40,7 +49,7 @@ section#home {
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 70vh;
+    height: 60vh;
   }
 
   .header__socials {
@@ -48,8 +57,13 @@ section#home {
   }
 
   .blob {
-    left: 0;
-    top: -14rem;
+    left: 3rem;
+    top: -9rem;
+  }
+
+  .blob-second {
+    top: -9rem;
+    right: -5rem;
   }
 }
 
@@ -61,7 +75,8 @@ section#home {
     padding-top: 10rem;
   }
 
-  .header__socials {
+  .header__socials,
+  .blob-second {
     display: none;
   }
 

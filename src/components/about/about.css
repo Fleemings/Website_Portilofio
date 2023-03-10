@@ -10,9 +10,10 @@ section#about {
 /*    IMAGE PERFIL CARD    */
 
 .about__me {
+  width: 100%;
   border-radius: 3rem;
   display: grid;
-  box-shadow: -21px 18px 4px 0px #ad18aa60;
+  box-shadow: -18px 16px 15px -3px #ad18aa4b;
 }
 
 /*    IMAGE PERFIL    */

@@ -21,6 +21,7 @@ const header = () => {
       </section>
       <div className='container header__container'>
         <Blob style='blob' />
+        <Blob style='blob-second' />
 
         <HeaderSocials />
       </div>

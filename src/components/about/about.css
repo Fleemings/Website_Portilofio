@@ -10,21 +10,14 @@ section#about {
 /*    IMAGE PERFIL CARD    */
 
 .about__me {
-  width: 100%;
-  aspect-ratio: 1/1;
   border-radius: 3rem;
   display: grid;
-  place-items: left;
-  box-shadow: -13px 11px 27px -8px rgba(0, 0, 0, 0.1);
+  box-shadow: -21px 18px 4px 0px #ad18aa60;
 }
 
 /*    IMAGE PERFIL    */
 .about__me-image {
-  width: 100%;
-  border-radius: 3rem;
-  overflow: hidden;
   transform-origin: rotate(50deg);
-  box-shadow: -13px 11px 27px -8px rgba(0, 0, 0, 0.1);
 }
 
 /* End CARDS */

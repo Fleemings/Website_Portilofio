@@ -16,12 +16,9 @@ section#home {
 /* Blob animation */
 .blob {
   position: absolute;
-  width: 28rem;
-  height: 30rem;
-}
-
-.blob {
-  top: -7rem;
+  width: 21rem;
+  height: 21rem;
+  top: -11rem;
   left: -9rem;
   transform: rotate(180deg);
 }
@@ -52,7 +49,7 @@ section#home {
 
   .blob {
     left: 0;
-    top: -13rem;
+    top: -14rem;
   }
 }
 
@@ -60,7 +57,7 @@ section#home {
 
 @media screen and (max-width: 600px) {
   header {
-    height: 60vh;
+    height: 68vh;
     padding-top: 10rem;
   }
 

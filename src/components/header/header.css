@@ -75,12 +75,16 @@ section#home {
     padding-top: 10rem;
   }
 
-  .header__socials,
-  .blob-second {
+  .header__socials {
     display: none;
   }
 
   .blob {
     top: -13rem;
+  }
+
+  .blob-second {
+    right: -13rem;
+    top: 25rem;
   }
 }

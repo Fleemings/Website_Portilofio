@@ -31,6 +31,10 @@ section#skill h5 {
   color: var(--color-white);
 }
 
+section#skill h2 {
+  color: #fb13f7;
+}
+
 .skill__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -40,6 +44,7 @@ section#skill h5 {
 .skill__details {
   display: flex;
   gap: 1rem;
+  justify-content: center;
 }
 
 /*  SVG WAVE */

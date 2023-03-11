@@ -62,8 +62,8 @@ section#home {
   }
 
   .blob-second {
-    top: -9rem;
-    right: -5rem;
+    top: 25rem;
+    right: 0;
   }
 }
 
@@ -75,16 +75,12 @@ section#home {
     padding-top: 10rem;
   }
 
-  .header__socials {
+  .header__socials,
+  .blob-second {
     display: none;
   }
 
   .blob {
     top: -13rem;
-  }
-
-  .blob-second {
-    right: -13rem;
-    top: 25rem;
   }
 }
